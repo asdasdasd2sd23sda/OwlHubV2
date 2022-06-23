@@ -5,6 +5,7 @@ local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
 local GuiService = game:GetService("GuiService")
 local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
 
 -- // Vars
 local Heartbeat = RunService.Heartbeat
@@ -32,6 +33,9 @@ local FindFirstChildWhichIsA = Instancenew("Part").FindFirstChildWhichIsA
 local FindFirstChild = Instancenew("Part").FindFirstChild
 local tableremove = table.remove
 local tableinsert = table.insert
+local RenderStepped = RunService.RenderStepped
+local RenderSteppedWait = RenderStepped.Wait
+local GetMouseLocation = UserInputService.GetMouseLocation
 
 -- // Silent Aim Vars
 getgenv().Aiming = {
